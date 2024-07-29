@@ -1,0 +1,13 @@
+// Definición de variables de color
+$primary-color: #34bad6; // Color primario
+
+// Uso de la variable en estilos
+.btn-primary {
+    background-color: $primary-color;
+    border: none;
+}
+
+// Estilos para el estado hover
+.btn-primary:hover {
+    background-color: darken($primary-color, 10%);
+}
