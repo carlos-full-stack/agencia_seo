@@ -7,7 +7,18 @@ $primary-color: #34bad6; // Color primario
     border-color: #34bad6;
 }
 
+
 .btn-primary:hover {
     background-color: darken($primary-color, 10%);
     border-color: #34bad6;
+}
+
+.btn-outline-primary {
+    border-color: #34bad6;
+    color: black;
+}
+
+.btn-outline-primary:hover {
+    border-color: darken($primary-color, 10%);
+    background-color: #34bad6;
 }

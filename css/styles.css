@@ -8,4 +8,14 @@
   border-color: #34bad6;
 }
 
+.btn-outline-primary {
+  border-color: #34bad6;
+  color: black;
+}
+
+.btn-outline-primary:hover {
+  border-color: #249ab3;
+  background-color: #34bad6;
+}
+
 /*# sourceMappingURL=styles.css.map */
