@@ -9,17 +9,12 @@
 }
 
 
-.testimonial .active {
+.testimonial.active {
     display: block;
 }
 
-button .prev,
-button .next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: #34bad6;
-    color: white;
-    padding: 1rem;
-    cursor: pointer;
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
