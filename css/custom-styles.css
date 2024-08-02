@@ -37,6 +37,10 @@ body {
   border: 1px solid #ffffff24;
 }
 
+.brand {
+  max-width: 10rem;
+}
+
 .custom-list {
   display: flex;
   flex-direction: column;
