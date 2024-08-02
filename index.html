@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/custom-styles.css">
+    <link rel="stylesheet" href="css/slider.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 
@@ -246,23 +247,33 @@
 
     <div class="container">
         <div class="pt-5 text-center">
-            <h2>Testimios</h2>
+            <h2>Testimonios</h2>
         </div>
-        <div class="testiminials-slider">
+        <div class="testimonial-slider d-flex flex-column gap-4 p-5">
             <div class="testimonial active">
-                <p>Primer testimonio</p>
-                <h4>Nombre Persona</h4>
+                <p>Estamos muy contentos y satisfechos con el servicio de SEO de la agencia. Nuestro gerente de cuenta
+                    es eficiente y muy conocedor. Lograron aumentar nuestro tráfico significativamente en poco tiempo.
+                    Recomendamos sus servicios a todos.</p>
+                <h5>Juan López</h5>
             </div>
             <div class="testimonial">
-                <p>Segundo testimonio</p>
-                <h4>Nombre Persona</h4>
+                <p>La agencia de SEO hizo un excelente trabajo optimizando nuestro sitio web. Su equipo es profesional,
+                    receptivo y altamente calificado. Nuestro ranking en buscadores mejoró drásticamente. Sin duda,
+                    recomendamos sus servicios.</p>
+                <h5>Ángela Martín</h5>
             </div>
             <div class="testimonial">
-                <p>Tercer testimonio</p>
-                <h4>Nombre Persona</h4>
+                <p>Tuvimos una experiencia fantástica con la agencia de SEO. Su personal experto ayudó a aumentar
+                    nuestra visibilidad y tráfico. Entregaron resultados medibles de manera rápida y eficiente.
+                    Recomendamos sus servicios a cualquier negocio.</p>
+                <h5>Ana Ruiz</h5>
             </div>
-            <button class="prev"></button>
-            <button class="next"></button>
+            <div class="button-container d-flex justify-content-center gap-2">
+                <button class="prev btn btn-primary btn-lg rounded-pill fs-6" onclick="changeTestimonial(-1)"><i
+                        class="fas fa-arrow-left pe-2"></i>Anterior</button>
+                <button class="next btn btn-primary btn-lg rounded-pill fs-6" onclick="changeTestimonial(1)">Siguiente
+                    <i class="fas fa-arrow-right ps-2"></i></button>
+            </div>
         </div>
     </div>
 
@@ -332,6 +343,7 @@
     </footer>
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/slider.js"></script>
 </body>
 
 
