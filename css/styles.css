@@ -3,6 +3,15 @@
   border-color: #34bad6;
 }
 
+.form-check-input {
+  accent-color: #34bad6;
+}
+
+.form-check-input:checked {
+  background-color: #34bad6;
+  border-color: #34bad6;
+}
+
 .btn-primary:hover {
   background-color: #249ab3;
   border-color: #34bad6;
