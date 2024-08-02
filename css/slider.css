@@ -1,0 +1,25 @@
+.testimonial-slider {
+    position: relative;
+    overflow: hidden;
+}
+
+.testimonial {
+    display: none;
+    text-align: center;
+}
+
+
+.testimonial .active {
+    display: block;
+}
+
+button .prev,
+button .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #34bad6;
+    color: white;
+    padding: 1rem;
+    cursor: pointer;
+}
