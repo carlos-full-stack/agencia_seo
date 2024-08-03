@@ -81,3 +81,35 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+
+/* Animaciones  */
+
+@keyframes moveDown {
+  from {
+    transform: translateY(-10%);
+  }
+
+  to {
+    transform: translateY(0%);
+  }
+}
+
+.moveDown {
+  animation: moveDown 0.5s ease-in;
+}
+
+.moveDown-delay {
+  animation: moveDown 0.5s ease-in;
+  animation-delay: 0.3s;
+}
+
+.moveDown-delay-x2 {
+  animation: moveDown 0.5s ease-in;
+  animation-delay: 0.5s;
+}
+
+.moveDown-delay-x3 {
+  animation: moveDown 0.5s ease-in;
+  animation-delay: 0.7s;
+}
