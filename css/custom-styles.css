@@ -95,21 +95,25 @@ body {
   }
 }
 
-.moveDown {
-  animation: moveDown 0.5s ease-in;
+.moveDown.animate {
+  animation: moveDown 0.5s ease-in forwards;
+  transform: translateY(-10%);
 }
 
-.moveDown-delay {
-  animation: moveDown 0.5s ease-in;
-  animation-delay: 0.3s;
+.moveDown-delay.animate {
+  animation: moveDown 0.5s ease-in forwards;
+  animation-delay: 0.2s;
+  transform: translateY(-10%);
 }
 
-.moveDown-delay-x2 {
-  animation: moveDown 0.5s ease-in;
-  animation-delay: 0.5s;
+.moveDown-delay-x2.animate {
+  animation: moveDown 0.5s ease-in forwards;
+  animation-delay: 0.4s;
+  transform: translateY(-10%);
 }
 
-.moveDown-delay-x3 {
-  animation: moveDown 0.5s ease-in;
-  animation-delay: 0.7s;
+.moveDown-delay-x3.animate {
+  animation: moveDown 0.5s ease-in forwards;
+  animation-delay: 0.6s;
+  transform: translateY(-10%);
 }
